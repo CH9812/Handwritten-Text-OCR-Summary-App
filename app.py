@@ -27,7 +27,7 @@ else:
     files = st.file_uploader("Upload one or more files", type=["pdf", "png", "jpg", "jpeg"], accept_multiple_files=True)
 
 # Step 4: Summarization pipeline using Hugging Face (Free, local)
-summarizer = pipeline("summarization", model="t5-small")
+#summarizer = pipeline("summarization", model="t5-small")
 
 # Step 5: Process files
 if st.button("Run OCR + Summarize"):
